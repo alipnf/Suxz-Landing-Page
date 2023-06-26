@@ -1,0 +1,23 @@
+{
+  "name": "suxz-landing-page",
+  "version": "1.0.0",
+  "description": "Belajar slicing desain",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alipnf/Suxz-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alipnf/Suxz-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/alipnf/Suxz-Landing-Page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
