@@ -1,2 +1,5 @@
 # Suxz-Landing-Page
-Belajar slicing desain
+
+Belajar slicing desain menggunakan tailwind
+
+https://codedesign.dev/challenge/suxz
