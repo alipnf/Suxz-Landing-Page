@@ -422,6 +422,10 @@ video {
   display: none;
 }
 
+body {
+  font-family: manrope;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -522,13 +526,238 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.order-last {
+  order: 9999;
+}
+
+.mx-\[30px\] {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml-\[30px\] {
+  margin-left: 30px;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-\[33px\] {
+  margin-top: 33px;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mr-\[84px\] {
+  margin-right: 84px;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.grid {
+  display: grid;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.place-content-between {
+  place-content: space-between;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-1\.5 {
+  gap: 0.375rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-words {
+  overflow-wrap: break-word;
+}
+
+.break-keep {
+  word-break: keep-all;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
+}
+
+.bg-\[\#A2B3BF\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(162 179 191 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F7F7FD\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 253 / var(--tw-bg-opacity));
+}
+
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-\[26px\] {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[31px\] {
+  font-size: 31px;
 }
 
 .text-xl {
@@ -536,15 +765,215 @@ video {
   line-height: 1.75rem;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.text-sky-800 {
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-\[\#22293E\] {
   --tw-text-opacity: 1;
-  color: rgb(7 89 133 / var(--tw-text-opacity));
+  color: rgb(34 41 62 / var(--tw-text-opacity));
+}
+
+.text-\[\#8C82FC\] {
+  --tw-text-opacity: 1;
+  color: rgb(140 130 252 / var(--tw-text-opacity));
+}
+
+.text-\[\#A2B3BF\] {
+  --tw-text-opacity: 1;
+  color: rgb(162 179 191 / var(--tw-text-opacity));
+}
+
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.duration-100 {
+  transition-duration: 100ms;
+}
+
+.hover\:bg-\[\#8C82FC\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 130 252 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:w-6\/12 {
+    width: 50%;
+  }
+
+  .sm\:gap-9 {
+    gap: 2.25rem;
+  }
+
+  .sm\:gap-20 {
+    gap: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:order-last {
+    order: 9999;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-6\/12 {
+    width: 50%;
+  }
+
+  .md\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:justify-items-end {
+    justify-items: end;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-\[64px\] {
+    font-size: 64px;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .md\:text-\[14px\] {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .lg\:rounded-xl {
+    border-radius: 0.75rem;
+  }
+
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-\[64px\] {
+    font-size: 64px;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .lg\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .lg\:text-\[10px\] {
+    font-size: 10px;
+  }
+
+  .lg\:text-\[13px\] {
+    font-size: 13px;
+  }
 }
