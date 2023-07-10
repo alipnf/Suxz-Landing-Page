@@ -14,10 +14,28 @@
     />
   </head>
   <body>
-    <header class="container">
+    <header
+      class="container mx-auto mt-3 flex flex-row items-center justify-between px-7"
+    >
       <div class="flex items-center gap-1.5">
-        <img src="./src/asset/favicon.png" alt="logo" />
+        <img src="./src/asset/favicon.png" alt="logo" class="w-[26px]" />
         <p class="text-xl font-bold">Suxz</p>
+      </div>
+
+      <div>
+        <div class="tham-e-squeeze tham tham-w-6">
+          <div class="tham-box">
+            <div class="tham-inner bg-indigo-400" />
+          </div>
+        </div>
+
+        <script>
+          const tham = document.querySelector(".tham");
+
+          tham.addEventListener("click", () => {
+            tham.classList.toggle("tham-active");
+          });
+        </script>
       </div>
     </header>
 
