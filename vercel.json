@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "pakage.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "buildCommand": "npx tailwindcss -i ./src/style/input.css -o ./dist/output.css --watch"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*).(js|css|png|jpg|jpeg|svg)",
+      "dest": "/$1.$2"
+    },
+    {
+      "src": "/(favicon.ico)",
+      "dest": "/$1"
+    },
+    {
+      "src": ".*",
+      "dest": "index.html"
+    }
+  ]
+}
