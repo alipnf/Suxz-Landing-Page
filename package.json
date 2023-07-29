@@ -4,8 +4,8 @@
   "description": "Belajar slicing desain",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss ./src/style/input.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss build ./src/style/input.css -o ./dist/output.css"
+    "dev": "npx tailwindcss ./public/style/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss build ./public/style/input.css -o ./dist/output.css"
   },
   "repository": {
     "type": "git",
