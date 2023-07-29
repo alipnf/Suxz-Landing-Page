@@ -2,10 +2,10 @@
   "version": 2,
   "builds": [
     {
-      "src": "pakage.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "npx tailwindcss -i ./src/style/input.css -o ./dist/output.css --watch"
+        "buildCommand": "npx tailwindcss -i ./src/style/input.css -o ./dist/output.css "
       }
     }
   ],
